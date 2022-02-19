@@ -42,7 +42,25 @@
 //
 // const google = document.querySelector('.item a');
 // google.style.color = 'yellow';
+//
+// const btn = document.querySelector('.btn');
+//
+// btn.style.backgroundColor = 'yellow';
 
-const btn = document.querySelector('.btn');
+// ---------- Adding ClassList ----------
 
-btn.style.backgroundColor = 'yellow';
+// const heading = document.querySelector('h1');
+// heading.classList.add('huge');
+
+// ---------- Changing the Content of elements ----------
+
+// const heading = document.querySelector('h1');
+// heading.innerHTML = '<em>Good Bye</em>';
+
+// ---------- Changing or Adding Attributes to elements ----------
+
+const google = document.querySelector('a');
+
+console.log(google.getAttribute('href'));
+google.setAttribute('href', 'https://www.jacquestill.com');
+console.log(google.getAttribute('href'));
